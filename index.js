@@ -23,8 +23,8 @@ app.get("*",(req,res)=>{
 console.log("someone hit on wrong route");
     res.send("vendoring beyound")
 });
-app.post('/upload',upload.single("key"), async (req, res) => {
-res.send(req.file);
-})
+// app.post('/upload',upload.single("key"), async (req, res) => {
+// res.send(req.file);
+// })
 app.post("/login", (req, res) => res.send("Express on Vercel from login gulves"));
 app.listen(3000, () => console.log("Server ready on port 3000."))
