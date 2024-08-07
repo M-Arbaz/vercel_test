@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.get("/", (req, res) => res.send("Express on Vercel from Arbaz 8-7-2024 +++"));
+app.get("/", (req, res) => res.send("Express on Vercel from Arbaz 8-7-2024 +++ +++"));
 app.get("*",(req,res)=>{
     res.send("vendoring beyound")
 });
