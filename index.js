@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/data', express.static('uploads'));
-app.get("/", (req, res) => res.send("Express on Vercel from Arbaz 8-7-2024 +++ gulves0 +++"));
+app.get("/", (req, res) => res.send("Express on Vercel from Arbaz 8-7-2024 +++ gulves01 +++"));
 app.get("*",(req,res)=>{
 
 console.log("someone hit on wrong route");
